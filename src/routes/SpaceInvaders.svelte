@@ -241,6 +241,7 @@
     .game-container h1 {
         font-size: 2rem;
         margin: 0;
+        color: white;
     }
 
     .score {
