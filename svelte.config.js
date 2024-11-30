@@ -1,4 +1,5 @@
-import adapter from 'sveltekit-adapter-deno';
+// import adapter from 'sveltekit-adapter-deno';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 import { mdsvex } from 'mdsvex';
@@ -12,8 +13,17 @@ const mdsvexOptions = {
 const config = {
 	extensions: ['.svelte', '.md'],
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
+	// kit: {
+	// 	adapter: adapter()
+	// }
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			pages: 'build',
+			assets: 'build',
+			fallback: undefined,
+			precompress: false,
+			strict: true
+		})
 	}
 };
 

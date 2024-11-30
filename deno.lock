@@ -701,6 +701,7 @@
         "npm:@fontsource/roboto@^5.1.0",
         "npm:@neoconfetti/svelte@2",
         "npm:@sveltejs/adapter-auto@3",
+        "npm:@sveltejs/adapter-static@^3.0.6",
         "npm:@sveltejs/kit@2",
         "npm:@sveltejs/vite-plugin-svelte@4",
         "npm:@types/markdown-it@^14.1.2",
