@@ -43,7 +43,7 @@
 			</ul>
 			<li>Privacy Preserving</li>
 		</ul>
-	
+		<span class="space"></span>
 		<ul class="list">
 		  <h2>Language</h2>
 		  <li>Rust</li>
@@ -207,9 +207,8 @@
 			}
 
 			.list {
-				margin: 0 2rem;
+				margin: 0 2rem 1rem 2rem;
 			}
-			
 		}
 	}
 </style>
