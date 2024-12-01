@@ -8,6 +8,7 @@
     "npm:@fontsource/roboto@^5.1.0": "5.1.0",
     "npm:@neoconfetti/svelte@2": "2.2.1",
     "npm:@sveltejs/adapter-auto@3": "3.3.1_@sveltejs+kit@2.8.5__@sveltejs+vite-plugin-svelte@4.0.2___svelte@5.2.10____acorn@8.14.0___vite@5.4.11__svelte@5.2.10___acorn@8.14.0__vite@5.4.11_@sveltejs+vite-plugin-svelte@4.0.2__svelte@5.2.10___acorn@8.14.0__vite@5.4.11_svelte@5.2.10__acorn@8.14.0_vite@5.4.11",
+    "npm:@sveltejs/adapter-static@^3.0.6": "3.0.6_@sveltejs+kit@2.8.5__@sveltejs+vite-plugin-svelte@4.0.2___svelte@5.2.10____acorn@8.14.0___vite@5.4.11__svelte@5.2.10___acorn@8.14.0__vite@5.4.11_@sveltejs+vite-plugin-svelte@4.0.2__svelte@5.2.10___acorn@8.14.0__vite@5.4.11_svelte@5.2.10__acorn@8.14.0_vite@5.4.11",
     "npm:@sveltejs/kit@2": "2.8.5_@sveltejs+vite-plugin-svelte@4.0.2__svelte@5.2.10___acorn@8.14.0__vite@5.4.11_svelte@5.2.10__acorn@8.14.0_vite@5.4.11",
     "npm:@sveltejs/vite-plugin-svelte@4": "4.0.2_svelte@5.2.10__acorn@8.14.0_vite@5.4.11",
     "npm:@types/markdown-it@^14.1.2": "14.1.2",
@@ -273,6 +274,12 @@
       "dependencies": [
         "@sveltejs/kit",
         "import-meta-resolve"
+      ]
+    },
+    "@sveltejs/adapter-static@3.0.6_@sveltejs+kit@2.8.5__@sveltejs+vite-plugin-svelte@4.0.2___svelte@5.2.10____acorn@8.14.0___vite@5.4.11__svelte@5.2.10___acorn@8.14.0__vite@5.4.11_@sveltejs+vite-plugin-svelte@4.0.2__svelte@5.2.10___acorn@8.14.0__vite@5.4.11_svelte@5.2.10__acorn@8.14.0_vite@5.4.11": {
+      "integrity": "sha512-MGJcesnJWj7FxDcB/GbrdYD3q24Uk0PIL4QIX149ku+hlJuj//nxUbb0HxUTpjkecWfHjVveSUnUaQWnPRXlpg==",
+      "dependencies": [
+        "@sveltejs/kit"
       ]
     },
     "@sveltejs/kit@2.8.5_@sveltejs+vite-plugin-svelte@4.0.2__svelte@5.2.10___acorn@8.14.0__vite@5.4.11_svelte@5.2.10__acorn@8.14.0_vite@5.4.11": {

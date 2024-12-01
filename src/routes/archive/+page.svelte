@@ -5,7 +5,6 @@
 
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
-	import * as config from '$lib/config'
 
 	let { data } = $props()
 </script>
@@ -14,7 +13,7 @@
     <h1>Archive</h1>
 	<ul class="column">
 		{#each data.posts as post}
-            <a href={'archive/' + post.slug} class="title">
+            <a href={post.slug} class="title">
                 <li class="post">
                     <p class="date">{formatDate(post.date)}</p>
 				    <span class="title-text">{post.title}</span>
