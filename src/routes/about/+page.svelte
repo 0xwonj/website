@@ -14,9 +14,9 @@
 		<img src={profile} alt="Wonjae Choi" />
 		<ul>
 			<li>Wonjae Choi</li>
-			<li>Ph.D Student at <a href="https://altair.snu.ac.kr/">Seoul National University</a></li>
-			<li>Blockchain Research Engineer at <a href="https://www.theradius.xyz/">Radius</a></li>
-			<li>Senior Researcher at <a href="https://x.com/DecipherGlobal/">Decipher</a></li>	
+			<li>Ph.D Student at <a href="https://altair.snu.ac.kr/" target="_blank" rel="noopener">Seoul National University</a></li>
+			<li>Blockchain Research Engineer at <a href="https://www.theradius.xyz/" target="_blank" rel="noopener">Radius</a></li>
+			<li>Senior Researcher at <a href="https://x.com/DecipherGlobal/" target="_blank" rel="noopener">Decipher</a></li>	
 	</div>
 
 	<hr />
