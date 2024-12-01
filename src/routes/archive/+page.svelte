@@ -51,7 +51,7 @@
     }
 
     li.post {
-        /* margin-bottom: 2rem; */
+        font-size: 1.75rem;
         padding: 0.5rem 1rem 1rem 1rem;
     }
 
@@ -65,7 +65,7 @@
         text-decoration: none;
         font-family: var(--font-text);
         font-size: 2rem;
-        font-weight: 900;
+        font-weight: 650;
         color: var(--color-theme-dynamic);
         display: block;
     }

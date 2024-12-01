@@ -14,7 +14,7 @@
 		<img src={profile} alt="Wonjae Choi" />
 		<ul>
 			<li>Wonjae Choi</li>
-			<li>Ph.D Student at <a href="https://altair.snu.ac.kr/">SNU VMO Lab</a></li>
+			<li>Ph.D Student at <a href="https://altair.snu.ac.kr/">Seoul National University</a></li>
 			<li>Blockchain Research Engineer at <a href="https://www.theradius.xyz/">Radius</a></li>
 			<li>Senior Researcher at <a href="https://x.com/DecipherGlobal/">Decipher</a></li>	
 	</div>
@@ -132,6 +132,7 @@
 
 			li {
 				font-size: 1.25rem;
+				font-weight: 550;
 			}
 
 			li:before {
@@ -149,6 +150,7 @@
 			color: var(--color-text-0);
 			li {
 				font-size: 1rem;
+				font-weight: 400;
 			}
 
 			li:before {

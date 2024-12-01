@@ -10,6 +10,7 @@ published: false
 ## Headers
 
 ### This is a level 3 header
+
 #### This is a level 4 header
 
 ---
@@ -27,30 +28,31 @@ published: false
 
 ## Emphasis
 
-*Italic text*  
-**Bold text**  
-~~Strikethrough text~~  
+_Italic text_\
+**Bold text**\
+~~Strikethrough text~~
 
 ## Code Blocks
 
 Inline code: `console.log('Hello, World!')`
 
 Block code:
+
 ```javascript
 function greet(name) {
-    return `Hello, ${name}!`;
+  return `Hello, ${name}!`;
 }
-console.log(greet('Markdown'));
+console.log(greet("Markdown"));
 ```
 
 ## Blockquote
 
-> This is a blockquote.  
+> This is a blockquote.\
 > You can use it to highlight text.
 
 ## Links
 
-[Visit Google](https://www.google.com)  
+[Visit Google](https://www.google.com)\
 [Relative link](./relative-path-to-resource)
 
 ## Images
@@ -59,10 +61,10 @@ console.log(greet('Markdown'));
 
 ## Tables
 
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Row 1    | Data     | More Data|
-| Row 2    | Data     | More Data|
+| Column 1 | Column 2 | Column 3  |
+| -------- | -------- | --------- |
+| Row 1    | Data     | More Data |
+| Row 2    | Data     | More Data |
 
 ## Task Lists
 
@@ -71,5 +73,5 @@ console.log(greet('Markdown'));
 
 ## Escaping Characters
 
-To display a literal `*`, use `\*`.  
+To display a literal `*`, use `\*`.\
 For backticks: \`code\`.
