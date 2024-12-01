@@ -1,6 +1,4 @@
-@import '@fontsource/fira-mono';
-@import '@fontsource/press-start-2p';
-@import '@fontsource/inter';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Press+Start+2P&display=swap');
 
 :root {
 	--font-body: 'Press Start 2P', Arial, sans-serif;
@@ -106,7 +104,7 @@ button:focus:not(:focus-visible) {
 	:is(h1, h2, h3, h4, h5, h6) {
 		color: var(--color-text-1);
         font-family: var(--font-text);
-		font-weight: 900;
+		font-weight: 600;
 	}
 
     h1 {

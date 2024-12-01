@@ -11,17 +11,10 @@
 	},
 	"dependencies": {
 		"@codewithshin/svelte-utterances": "^0.2.4",
-		"@fontsource/inter": "^5.1.0",
-		"@fontsource/press-start-2p": "^5.1.0",
-		"@fontsource/roboto": "^5.1.0",
 		"@sveltejs/adapter-static": "^3.0.6",
-		"@types/markdown-it": "^14.1.2",
-		"markdown-it": "^14.1.0",
-		"markdown-it-katex": "^2.0.3",
 		"mdsvex": "^0.12.3"
 	},
 	"devDependencies": {
-		"@fontsource/fira-mono": "^5.0.0",
 		"@neoconfetti/svelte": "^2.0.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
