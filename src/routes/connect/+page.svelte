@@ -50,7 +50,7 @@
     ul {
         list-style: none;
         margin: 4rem;
-        justify-items: center;
+        /* justify-items: center; */
         font-size: 2rem;
         padding: 0;
         display: flex;
@@ -64,6 +64,11 @@
         a:hover {
             color: var(--color-theme-dynamic);
             text-decoration: none;
+        }
+
+        li {
+            display: flex;
+            margin: 0.5rem 0;
         }
     }
 

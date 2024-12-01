@@ -115,19 +115,6 @@
 				top: 4px;
 			}
 		}
-
-		
-	}
-
-	@media (max-width: 768px) {
-		.profile {
-			display: flex;
-			justify-content: center;
-
-			img {
-				width: 75%;
-			}
-		}
 	}
 
 	.research-interests {
@@ -186,6 +173,43 @@
 			border: 1px solid var(--color-text-0);
 			border-radius: 0.5rem;
 			overflow: hidden;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.about {
+			h1 {
+				margin: 0 0 2rem 0;
+			}
+		}
+		.profile {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			img {
+				width: 60%;
+				margin: 0;
+			}
+
+			ul {
+				padding: 0;
+				margin: 2rem 1rem 1rem 1rem;
+			}
+		}
+
+		.research-interests {
+			flex-direction: column;
+			
+			h2 {
+				text-align: center;
+			}
+
+			.list {
+				margin: 0 2rem;
+			}
+			
 		}
 	}
 </style>
