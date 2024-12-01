@@ -25,14 +25,14 @@
         </li>
         <hr />
         <li>
-            <a href="https://twitter.com/0xwonj" class="link">
-                Twitter
+            <a href="https://x.com/0xwonj" class="link">
+                X(Twitter)
                 <span class="tooltip">0xwonj</span>
             </a>
         </li>
         <hr />
         <li>
-            <a href="https://linkedin.com/wonj" class="link">
+            <a href="https://www.linkedin.com/in/wonj/" class="link">
                 LinkedIn
             </a>
         </li>
