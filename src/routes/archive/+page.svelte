@@ -71,7 +71,7 @@
     }
 
     a.title:hover .title-text {
-        text-decoration: underline; /* hover 시 .title-text에만 밑줄 추가 */
+        text-decoration: underline;
     }
 
     p.date {

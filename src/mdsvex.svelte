@@ -1,6 +1,6 @@
 <script lang="ts" module>
-	import { img } from '$lib/components/custom'
-	export { img }
+	// import { img } from '$lib/components/custom/img.svelte'
+	// export { img }
 </script>
 
 <script lang="ts">
