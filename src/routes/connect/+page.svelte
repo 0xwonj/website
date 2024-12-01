@@ -11,28 +11,28 @@
     <ul>
         <hr />
         <li>
-            <a href="https://github.com/0xwonj" class="link">
+            <a href="https://github.com/0xwonj" target="_blank" rel="noopener" class="link">
                 Github
                 <span class="tooltip">0xwonj</span>
             </a>
         </li>
         <hr />
         <li>
-            <a href="mailto:wonjae@snu.ac.kr" class="link">
+            <a href="mailto:wonjae@snu.ac.kr" target="_blank" rel="noopener" class="link">
                 Email
                 <span class="tooltip">wonjae@snu.ac.kr</span>
             </a>
         </li>
         <hr />
         <li>
-            <a href="https://x.com/0xwonj" class="link">
+            <a href="https://x.com/0xwonj" target="_blank" rel="noopener" class="link">
                 X(Twitter)
                 <span class="tooltip">0xwonj</span>
             </a>
         </li>
         <hr />
         <li>
-            <a href="https://www.linkedin.com/in/wonj/" class="link">
+            <a href="https://www.linkedin.com/in/wonj/" target="_blank" rel="noopener" class="link">
                 LinkedIn
             </a>
         </li>
