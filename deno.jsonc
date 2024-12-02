@@ -1,0 +1,8 @@
+{
+  "fmt": {
+    "options": {
+      "proseWrap": "preserve"
+    },
+    "exclude": ["node_modules", "build"]
+  }
+}
