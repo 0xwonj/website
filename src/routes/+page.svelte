@@ -106,4 +106,18 @@
 			opacity: 50%;
 		}
 	}
+
+	@media (max-width: 768px) {
+		section {
+			margin: 0 auto;
+
+			h1 {
+				margin: 1rem auto;
+			}
+
+			nav {
+				margin: 1rem auto;
+			}
+		}
+	}
 </style>
