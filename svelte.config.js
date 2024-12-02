@@ -13,9 +13,6 @@ const mdsvexOptions = {
 const config = {
   extensions: [".svelte", ".md"],
   preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
-  // kit: {
-  // 	adapter: adapter()
-  // }
   kit: {
     adapter: adapter({
       pages: "build",
