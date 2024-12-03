@@ -28,7 +28,7 @@
     section {
         max-width: 48rem;
         width: 100%;
-        margin: 1rem auto;
+        margin: 0 auto;
         color: var(--color-theme-dynamic);
     }
 
@@ -82,5 +82,15 @@
     li.post:not(:last-child) {
         border-bottom: 1px solid #333333;
         padding-bottom: 1rem;
+    }
+
+    @media (max-width: 768px) {
+        section h1 {
+            margin: 0 1rem;
+        }
+
+        li.post {
+            font-size: 1.5rem;
+        }
     }
 </style>

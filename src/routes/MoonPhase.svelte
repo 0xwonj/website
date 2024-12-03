@@ -1,8 +1,9 @@
 <script lang="ts">
-    let currentdate: Date = new Date();
-    let moonRotationDeg: number = getMoonPhaseRotation(currentdate);
+    let currentDate: Date = new Date();
+    let moonRotationDeg: number = getMoonPhaseRotation(currentDate);
     let hemisphere0IsLight: boolean = moonRotationDeg < 180;
     let hemisphere1IsLight: boolean = !hemisphere0IsLight;
+    let isLight: boolean = moonRotationDeg > 90 && moonRotationDeg < 270;
   
     function getMoonPhaseRotation(date: Date): number {
       const cycleLength = 29.5305882;
@@ -12,21 +13,15 @@
       const daysSinceKnownNewMoon = secondsSinceKnownNewMoon / 86400;
       const currentMoonPhasePercentage =
         ((daysSinceKnownNewMoon % cycleLength) + cycleLength) % cycleLength / cycleLength;
-  
+      
       return 360 - Math.floor(currentMoonPhasePercentage * 360);
-    }
-  
-    $: {
-      moonRotationDeg = getMoonPhaseRotation(currentdate);
-      hemisphere0IsLight = moonRotationDeg < 180;
-      hemisphere1IsLight = !hemisphere0IsLight;
     }
   </script>
   
   <div class="sphere">
+    <div class="divider" class:light={isLight} class:dark={!isLight} style="transform: rotate3d(0, 1, 0, {moonRotationDeg}deg);"></div>
     <div class="hemisphere" class:light={hemisphere0IsLight} class:dark={!hemisphere0IsLight}></div>
     <div class="hemisphere" class:light={hemisphere1IsLight} class:dark={!hemisphere1IsLight}></div>
-    <div class="divider" style="transform: rotate3d(0, 1, 0, {moonRotationDeg}deg);"></div>
   </div>
   
   <style>
@@ -50,12 +45,11 @@
     }
   
     .light {
-      background-color: #FFEB8E;
-      background-image: radial-gradient(circle, #FFF1B5 0%, #FFEB8E 70%);
+      background-color: #fdefa3;
     }
   
     .dark {
-      background-color: var(--color-bg-0);
+      backface-visibility: hidden;
     }
   
     .divider,
@@ -67,16 +61,10 @@
       position: absolute;
       border-radius: 100%;
       transform-style: preserve-3d;
-      backface-visibility: hidden;
     }
-  
-    .divider {
+
+    .divider.dark {
       background-color: var(--color-bg-0);
-    }
-  
-    .divider::after {
-      content: '';
-      transform: rotateY(180deg);
     }
   </style>
   

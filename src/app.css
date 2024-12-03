@@ -96,7 +96,6 @@ button:focus:not(:focus-visible) {
 }
 
 .prose {
-  margin-top: 2rem;
   line-height: 1.75;
   color: var(--color-text-0);
   font-size: 1rem;

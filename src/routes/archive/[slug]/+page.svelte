@@ -64,4 +64,13 @@
         width: 100%;
         margin: 2rem auto;
     }
+
+    @media (max-width: 768px) {
+        article {
+            margin-top: 0;
+            h1 {
+                margin: 0;
+            }
+        }
+    }
 </style>

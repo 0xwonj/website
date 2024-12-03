@@ -37,7 +37,7 @@
 	.app {
 		display: flex;
 		flex-direction: column;
-		/* width: 100%; */
+		width: 100%;
 		min-height: 100vh;
 		overflow-x: hidden;
 	}
@@ -49,7 +49,13 @@
 		padding: 1rem;
 		width: 100%;
 		max-width: 64rem;
-		margin: 0 auto;
+		margin: 1rem auto;
 		box-sizing: border-box;
+	}
+
+	@media (max-width: 768px) {
+		main {
+			margin: 0 auto;
+		}
 	}
 </style>

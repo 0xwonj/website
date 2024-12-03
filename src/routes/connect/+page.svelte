@@ -44,13 +44,12 @@
     .connect {
         max-width: 48rem;
 		width: 100%;
-		margin: 1rem auto;
+		margin: 0 auto;
     }
 
     ul {
         list-style: none;
         margin: 4rem;
-        /* justify-items: center; */
         font-size: 2rem;
         padding: 0;
         display: flex;
@@ -107,5 +106,20 @@
     .link:hover .tooltip {
         visibility: visible;
         opacity: 1;
+    }
+
+    @media (max-width: 768px) {
+        .connect h1 {
+            margin: 0 1rem;
+        }
+
+        ul {
+            margin: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .tooltip {
+            display: none;
+        }
     }
 </style>

@@ -68,7 +68,7 @@
 	.about {
 		max-width: 48rem;
 		width: 100%;
-		margin: 1rem auto;
+		margin: 0 auto;
 		display: flex;
 		flex-direction: column;
 		background-color: var(--color-bg-0);
