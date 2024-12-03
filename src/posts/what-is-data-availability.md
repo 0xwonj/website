@@ -1,7 +1,7 @@
 ---
 title: What is Data Availability
 description: Presentation on data availability in blockchain.
-date: '2024-12-01'
+date: '2024-12-02'
 categories:
   - blockchain
   - cryptography

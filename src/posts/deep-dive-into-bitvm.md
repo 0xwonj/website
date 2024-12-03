@@ -1,7 +1,7 @@
 ---
 title: Deep Dive into BitVM
 description: BitVM's background and technical details.
-date: '2024-12-1'
+date: '2024-12-02'
 categories:
   - blockchain
   - bitcoin
@@ -10,8 +10,9 @@ categories:
 published: true
 ---
 
-> Mirror of
-> [Decipher Medium Article](https://medium.com/decipher-media/bitvm-smarter-bitcoin-smarter-%ED%95%98-55b2b20cd1cf)
+> Mirror of the original article on [Decipher Medium](https://medium.com/decipher-media/bitvm-smarter-bitcoin-smarter-%ED%95%98-55b2b20cd1cf).
+>
+> Also available on [Digital Asset](https://contents.premium.naver.com/digitalasset/digitalassetpro/contents/240913141131231fz).
 
 ## Table of Contents
 

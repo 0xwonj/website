@@ -1,7 +1,7 @@
 ---
 title: Introduction to zk-SNARK and Plonk
 description: Introduction to the zk-SNARK and Plonk.
-date: '2024-12-02'
+date: '2024-12-03'
 categories:
   - cryptography
   - zkp
