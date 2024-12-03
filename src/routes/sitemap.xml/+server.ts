@@ -48,3 +48,5 @@ const sitemap = (pages: string[]) =>
       .join("")
   }
 </urlset>`;
+
+export const prerender = true;
