@@ -6,7 +6,7 @@
 
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
-    import { Utterances } from "@codewithshin/svelte-utterances"
+    import Utterances from '$lib/components/Utterances.svelte';
 	let { data } = $props()
 </script>
 
@@ -23,7 +23,7 @@
 
 <div class="comments">
     <hr />
-    <Utterances reponame="0xwonj/comments" issueTerm="pathname" label="comment" theme="photon-dark" />
+    <Utterances repo="0xwonj/comments" issueTerm="pathname" theme="photon-dark" label="comment"/>
 </div>
 
 <style>
