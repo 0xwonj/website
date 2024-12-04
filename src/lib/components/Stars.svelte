@@ -1,11 +1,16 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { get } from 'svelte/store';
+	import { page } from '$app/stores';
 
 	let starCount: number;
 	const starColors = ['#fff', '#ffdd88', '#88bbff', '#ffffff88', '#ff8888', '#88ff88', '#8888ff', '#ff88ff', '#ffff88'];
+	let currentUrl: string;
 
 	function calculateStarCount() {
-		return Math.floor((window.innerWidth * window.innerHeight) / 8192); // / 8192로 가독성 향상
+		const pageWidth = document.documentElement.scrollWidth;
+		const pageHeight = document.documentElement.scrollHeight * 1.1;
+		return Math.floor((pageWidth * pageHeight) / 8192);
 	}
 
 	function createStars() {
@@ -14,8 +19,8 @@
 		const stars = Array(starCount)
 			.fill(0)
 			.map(() => {
-				const x = Math.random() * window.innerWidth;
-				const y = Math.random() * window.innerHeight;
+				const x = Math.random() * document.documentElement.scrollWidth;
+				const y = Math.random() * document.documentElement.scrollHeight * 1.1;
 				const color = starColors[Math.floor(Math.random() * starColors.length)];
 				return `${x}px ${y}px ${color}`;
 			});
@@ -26,8 +31,19 @@
 		}
 	}
 
+	function handlePageChange() {
+		const newUrl = get(page).url.pathname;
+		if (newUrl !== currentUrl) {
+			currentUrl = newUrl;
+			createStars();
+		}
+	}
+
 	onMount(() => {
+		currentUrl = get(page).url.pathname;
 		createStars();
+
+		page.subscribe(() => handlePageChange());
 	});
 </script>
 
