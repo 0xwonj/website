@@ -23,7 +23,7 @@
 
 <div class="comments">
     <hr />
-    <Utterances repo="0xwonj/comments" issueTerm="pathname" theme="photon-dark" label="comment"/>
+    <Utterances repo="0xwonj/comments" issueTerm="pathname" theme="github-dark" label="comment"/>
 </div>
 
 <style>

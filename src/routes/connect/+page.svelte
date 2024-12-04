@@ -56,7 +56,7 @@
 
     ul {
         list-style: none;
-        margin: 4rem;
+        margin: 4rem 4rem 0 4rem;
         font-size: 2rem;
         padding: 0;
         display: flex;
@@ -121,7 +121,7 @@
         }
 
         ul {
-            margin: 2rem;
+            margin: 2rem 2rem 0 2rem;
             font-size: 1.5rem;
         }
 
