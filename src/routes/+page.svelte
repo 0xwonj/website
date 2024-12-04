@@ -1,7 +1,7 @@
 <script lang="ts">
   	import { goto } from '$app/navigation';
-	import SpaceInvaders from './SpaceInvaders.svelte';
-	import MoonPhase from './MoonPhase.svelte';
+	import SpaceInvaders from '$lib/components/SpaceInvaders.svelte';
+	import MoonPhase from '$lib/components/MoonPhase.svelte';
 
 	let showGame = 0;
 </script>
@@ -90,20 +90,6 @@
 		}
 		100% {
 			filter: hue-rotate(360deg);
-		}
-	}
-
-	@keyframes blink {
-		0% {
-			opacity: 50%;
-		}
-
-		50% {
-			opacity: 100%;
-		}
-
-		100% {
-			opacity: 50%;
 		}
 	}
 

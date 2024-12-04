@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Stars from './Stars.svelte';
-	import Header from './Header.svelte';
+	import Stars from '$lib/components/Stars.svelte';
+	import Header from '$lib/components/Header.svelte';
 	import { onMount } from 'svelte';
 	import '../app.css';
 

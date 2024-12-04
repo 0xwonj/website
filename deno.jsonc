@@ -2,5 +2,14 @@
   "fmt": {
     "proseWrap": "preserve",
     "exclude": ["node_modules", "build"]
+  },
+  "compilerOptions": {
+    "checkJs": true,
+    "strict": true
+  },
+  "npm": {
+    "allow-scripts": {
+      "npm:@sveltejs/kit": true
+    }
   }
 }
