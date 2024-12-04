@@ -32,11 +32,18 @@
         </li>
         <hr />
         <li>
-            <a href="https://www.linkedin.com/in/wonj/" target="_blank" rel="noopener" class="link">
+            <a href="https://www.linkedin.com/in/wonj" target="_blank" rel="noopener" class="link">
                 LinkedIn
             </a>
         </li>
         <hr />
+        <li>
+            <a href="https://warpcast.com/wonj" target="_blank" rel="noopener" class="link">
+                Farcaster
+            </a>
+        </li>
+        <hr />
+
 
 </div>
 
