@@ -20,4 +20,4 @@ zk-SNARK는 다양한 프로토콜로 구현될 수 있습니다. 그 중 현대
 프로토콜의 기초가 되는 것이 Plonk입니다. 아래의 PDF 파일은 제가 랩 세미나에서
 zk-SNARK와 Plonk에 대해 발표한 자료입니다.
 
-<iframe src="/pdfs/zksnark-and-plonk.pdf" width="100%" height="500px" title="zkSNARK and Plonk"></iframe>
+<embed class="pdf-container-16x9" src="/pdfs/zksnark-and-plonk.pdf" type="application/pdf" width="100%" height="100%">

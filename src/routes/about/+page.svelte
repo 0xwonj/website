@@ -57,9 +57,9 @@
 	<hr />
 
 	<div class="cv">
-		<h2>Curriculum Vitae</h2>
-		<div class="pdf-preview">
-			<iframe src="/CV_WonjaeChoi.pdf" width="100%" height="100%" title="CV_WonjaeChoi.pdf"></iframe>
+		<a href="/pdfs/CV_WonjaeChoi.pdf" target="_blank" rel="noopener"><h2>Curriculum Vitae</h2></a>
+		<div class="pdf-container">
+			<embed class="pdf-container-A4" src="/pdfs/CV_WonjaeChoi.pdf" type="application/pdf" width="100%" height="100%">
 		</div>
 	</div>
 </div>
@@ -169,12 +169,14 @@
 			margin-bottom: 3rem;
 		}
 
-		.pdf-preview {
+		a:hover {
+			text-decoration: none;
+			opacity: 0.5;
+		}
+
+		.pdf-container {
 			width: 100%;
-			height: 800px;
-			border: 1px solid var(--color-text-0);
-			border-radius: 0.5rem;
-			overflow: hidden;
+			aspect-ratio: 210 / 310;			
 		}
 	}
 

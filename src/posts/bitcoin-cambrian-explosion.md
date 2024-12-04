@@ -16,7 +16,7 @@ published: true
 
 ### Report
 
-<iframe src="/pdfs/bitcoin-cambrian-explosion.pdf" width="100%" height="600px" title="Bitcoin Cambrian Explosion"></iframe>
+<embed class="pdf-container-A4" src="/pdfs/bitcoin-cambrian-explosion.pdf" type="application/pdf" width="100%" height="100%">
 
 ### Presentation Video
 

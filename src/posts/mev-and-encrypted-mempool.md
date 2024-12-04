@@ -14,4 +14,4 @@ published: true
 
 ### Presentation
 
-<iframe src="/pdfs/encrypted-mempool.pdf" width="100%" height="500px" title="martFL"></iframe>
+<embed class="pdf-container-16x9" src="/pdfs/encrypted-mempool.pdf" type="application/pdf" width="100%" height="100%">

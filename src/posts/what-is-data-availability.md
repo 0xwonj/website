@@ -18,4 +18,4 @@ published: true
 
 ### Presentation
 
-<iframe src="/pdfs/data-availability.pdf" width="100%" height="500px" title="Data Availability"></iframe>
+<embed class="pdf-container-16x9" src="/pdfs/data-availability.pdf" type="application/pdf" width="100%" height="100%">

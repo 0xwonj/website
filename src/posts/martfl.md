@@ -22,4 +22,4 @@ published: true
 
 ### Presentation
 
-<iframe src="/pdfs/martfl.pdf" width="100%" height="500px" title="martFL"></iframe>
+<embed class="pdf-container-16x9" src="/pdfs/martfl.pdf" type="application/pdf" width="100%" height="100%">

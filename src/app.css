@@ -229,3 +229,27 @@ button:focus:not(:focus-visible) {
     margin: 2rem 0;
   }
 }
+
+@keyframes blink {
+  0% {
+    opacity: 50%;
+  }
+
+  50% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 50%;
+  }
+}
+
+.pdf-container-16x9 {
+  width: 100%;
+  aspect-ratio: 16 / 10.1;
+}
+
+.pdf-container-A4 {
+  width: 100%;
+  aspect-ratio: 210 / 310;
+}
