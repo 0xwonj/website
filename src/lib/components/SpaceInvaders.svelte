@@ -296,21 +296,21 @@
         font-family: var(--font-body);
     }
 
-    :global(.invader) {
+    .invader {
         background-color: purple;
         border-radius: 10px;
     }
 
-    :global(.shooter) {
+    .shooter {
         background-color: green;
         border-radius: 3px;
     }
 
-    :global(.laser) {
+    .laser {
         background-color: orange;
     }
 
-    :global(.boom) {
+    .boom {
         background-color: red;
     }
 </style>

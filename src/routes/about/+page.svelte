@@ -57,9 +57,9 @@
 	<hr />
 
 	<div class="cv">
-		<a href="/pdfs/CV_WonjaeChoi.pdf" target="_blank" rel="noopener"><h2>Curriculum Vitae</h2></a>
+		<a href="/pdfs/cv.pdf" target="_blank" rel="noopener"><h2>Curriculum Vitae</h2></a>
 		<div class="pdf-container">
-			<embed class="pdf-container-A4" src="/pdfs/CV_WonjaeChoi.pdf" type="application/pdf" width="100%" height="100%">
+			<embed class="pdf-container-A4" src="/pdfs/cv.pdf" type="application/pdf" width="100%" height="100%">
 		</div>
 	</div>
 </div>
