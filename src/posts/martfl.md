@@ -15,10 +15,9 @@ published: true
 
 ### Paper Information
 
-- Title: [martFL: Enabling Utility-Driven Data Marketplace with a Robust and
-  Verifiable Federated Learning Architecture]
-- Publication: ACM Conference on Computer and Communications Security (CCS) 2023
-- [link](https://dl.acm.org/doi/10.1145/3576915.3623134)
+- **Title**: [martFL: Enabling Utility-Driven Data Marketplace with a Robust and
+  Verifiable Federated Learning Architecture](https://dl.acm.org/doi/10.1145/3576915.3623134)
+- **Published**: 2023 ACM Conference on Computer and Communications Security (CCS '23)
 
 ### Presentation
 
